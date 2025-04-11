@@ -1,0 +1,18 @@
+name: multirecon
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python==3.11
+  - pip
+  - matplotlib
+  - pip:
+      - gradio_imageslider
+      - gradio==5.0.2
+      - opencv-python
+      - torch==2.4.1
+      - torchvision==0.19.1
+      - git+https://github.com/luca-medeiros/lang-segment-anything.git
+    
+
